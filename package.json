@@ -1,0 +1,23 @@
+{
+  "name": "ugly-orange",
+  "version": "1.0.0",
+  "description": "ugly orange, orlando.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgoldenberg/ugly-orange.git"
+  },
+  "author": "b. feistmann & m. goldenberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgoldenberg/ugly-orange/issues"
+  },
+  "homepage": "https://github.com/mgoldenberg/ugly-orange#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
