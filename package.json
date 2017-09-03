@@ -4,8 +4,8 @@
   "description": "ugly orange, orlando.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "nodemon app.js"
+    "start": "node app.js $NODE_PORT",
+    "test": "nodemon app.js $NODE_PORT"
   },
   "repository": {
     "type": "git",
