@@ -1,5 +1,6 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const path = require('path');
+const app = express();
 
 /* parse port number */
 let args = process.argv.slice(2);
@@ -18,9 +19,15 @@ if(args.length < 1) {
 
 /* setup server */ 
 app.get('/', function (req, res) {
-	res.send('Goodbye World!');
-})
+	res.sendFile(path.join(__dirname + '/index.html'));
+});
+
+app.get('/audio/*', function(req, res) {
+	let audiopath = path.join(__dirname + '/' + req.originalUrl);
+	console.log('request for audio at: ' + audiopath);	
+	res.sendFile(audiopath);
+});
 
 app.listen(port, 'localhost', function () {
 	console.log('listening on: localhost:' + port);
-})
+});
