@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  .coming-soon {
+    width: 274px;
+    margin: auto;
+    margin-top: 30px;
+    img {
+      height: 100px;
+    }
+  }
+}
+
+
+// tiles
+.tiles {
+  // border: solid red 4px;
+  .tiles-container {
+    // outline: solid orange 1px;
+    width: 652px;
+    margin: auto;
+    .album {
+      background: whitesmoke;
+      height: 128px;
+      width: 128px;
+      margin: 16px;
+      display: inline-block;
+    }
+  }
+}
+
+// footer
+.footer {
+  margin-bottom: 64px;
+  .orange {
+    // outline: red solid 1px;
+    width: 42px;
+    margin: auto;
+    margin-top: 30px;
+    img {
+      height: 35px;
+      margin: auto;
+    }
+  }
+  .social {
+    // outline: red solid 1px;
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+    a {
+      text-decoration: none;
+      img {
+        height: 20px;
+        margin-left: 9px
+      }
+    }
+  }
+}

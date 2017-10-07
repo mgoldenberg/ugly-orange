@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header .coming-soon {
+  width: 274px;
+  margin: auto;
+  margin-top: 30px; }
+  .header .coming-soon img {
+    height: 100px; }
+
+.tiles .tiles-container {
+  width: 652px;
+  margin: auto; }
+  .tiles .tiles-container .album {
+    background: whitesmoke;
+    height: 128px;
+    width: 128px;
+    margin: 16px;
+    display: inline-block; }
+
+.footer {
+  margin-bottom: 64px; }
+  .footer .orange {
+    width: 42px;
+    margin: auto;
+    margin-top: 30px; }
+    .footer .orange img {
+      height: 35px;
+      margin: auto; }
+  .footer .social {
+    width: 100px;
+    margin: auto;
+    margin-top: 30px; }
+    .footer .social a {
+      text-decoration: none; }
+      .footer .social a img {
+        height: 20px;
+        margin-left: 9px; }
+
+/*# sourceMappingURL=main.css.map */
