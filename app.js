@@ -28,6 +28,12 @@ app.get('/audio/*', function(req, res) {
 	res.sendFile(audiopath);
 });
 
+app.get('/img/*', function(req, res) {
+	let imgpath = path.join(__dirname + '/' + req.originalUrl);
+	console.log('request for audio at: ' + imgpath);	
+	res.sendFile(imgpath);
+});
+
 app.listen(port, 'localhost', function () {
 	console.log('listening on: localhost:' + port);
 });
