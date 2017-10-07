@@ -11,13 +11,24 @@
 
 .tiles .tiles-container {
   width: 652px;
-  margin: auto; }
+  margin: auto;
+  /*
+    bands
+  */ }
   .tiles .tiles-container .album {
     background: whitesmoke;
     height: 128px;
     width: 128px;
     margin: 16px;
     display: inline-block; }
+  .tiles .tiles-container .baby {
+    background-image: url("../img/albums/baby.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tiles .tiles-container .pearl {
+    background-image: url("../img/albums/pearl.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .footer {
   margin-bottom: 64px; }

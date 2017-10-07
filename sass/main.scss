@@ -28,6 +28,21 @@
       width: 128px;
       margin: 16px;
       display: inline-block;
+
+    }
+    /*
+      bands
+    */
+    .baby {
+      background-image: url('../img/albums/baby.jpg') !important;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .pearl {
+      background-image: url('../img/albums/pearl.jpg') !important;
+      background-repeat: no-repeat;
+      background-size: contain;
     }
   }
 }
