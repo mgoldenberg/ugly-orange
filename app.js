@@ -30,8 +30,14 @@ app.get('/audio/*', function(req, res) {
 
 app.get('/img/*', function(req, res) {
 	let imgpath = path.join(__dirname + '/' + req.originalUrl);
-	console.log('request for audio at: ' + imgpath);	
+	console.log('request for image at: ' + imgpath);	
 	res.sendFile(imgpath);
+});
+
+app.get('/css/*', function(req, res) {
+	let csspath = path.join(__dirname + '/' + req.originalUrl);
+	console.log('request for css at: ' + csspath);	
+	res.sendFile(csspath);
 });
 
 app.listen(port, 'localhost', function () {
