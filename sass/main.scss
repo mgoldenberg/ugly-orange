@@ -28,7 +28,9 @@
       width: 128px;
       margin: 16px;
       display: inline-block;
-
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
     }
     /*
       bands
@@ -41,6 +43,48 @@
 
     .pearl {
       background-image: url('../img/albums/pearl.jpg') !important;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .tigerfawn {
+      background-image: url('../img/albums/tigerfawn.jpg') !important;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .fatnight {
+      background-image: url('../img/albums/fatnight.jpg') !important;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .telecom {
+      background-image: url('../img/albums/telecom.jpg') !important;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .hypoluxo {
+      background-image: url('../img/albums/hypoluxo.jpg') !important;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .tons {
+      background-image: url('../img/albums/tons.jpg') !important;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .jason {
+      background-image: url('../img/albums/jason.jpg') !important;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .faking {
+      background-image: url('../img/albums/faking.jpg') !important;
       background-repeat: no-repeat;
       background-size: contain;
     }

@@ -20,13 +20,44 @@
     height: 128px;
     width: 128px;
     margin: 16px;
-    display: inline-block; }
+    display: inline-block;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
   .tiles .tiles-container .baby {
     background-image: url("../img/albums/baby.jpg") !important;
     background-repeat: no-repeat;
     background-size: contain; }
   .tiles .tiles-container .pearl {
     background-image: url("../img/albums/pearl.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tiles .tiles-container .tigerfawn {
+    background-image: url("../img/albums/tigerfawn.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tiles .tiles-container .fatnight {
+    background-image: url("../img/albums/fatnight.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tiles .tiles-container .telecom {
+    background-image: url("../img/albums/telecom.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tiles .tiles-container .hypoluxo {
+    background-image: url("../img/albums/hypoluxo.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tiles .tiles-container .tons {
+    background-image: url("../img/albums/tons.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tiles .tiles-container .jason {
+    background-image: url("../img/albums/jason.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tiles .tiles-container .faking {
+    background-image: url("../img/albums/faking.jpg") !important;
     background-repeat: no-repeat;
     background-size: contain; }
 
