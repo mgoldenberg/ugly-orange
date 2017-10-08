@@ -192,19 +192,40 @@
 		let play = function(artist) {
 			let next;
 			if((next = $('#audio-' + artist)[0]) !== undefined) {
-				if(current === next) {
-					console.log('already playing artist: ' + artist);
-					return;
+				/* found audio tag corresponding to artist */
+				if(current === undefined) {
+					/* nothing is queued */
+					current = next;
+					console.log('playing: ' + artist);
+					current.play();
+				} else {
+					/* audio is queued */
+					if(current === next) {
+						/* toggling queued audio */
+						if(current.paused) {
+							/* queued audio is paused, resume */
+							console.log('continue playing: ' + artist);
+							current.play();
+						} else {
+							/* queued audio is playing, pause */
+							console.log('pausing: ' + artist);
+							current.pause();
+						}
+					} else { 
+						/* queueing new audio */ 
+						console.log('pausing current...');
+						current.pause();
+						console.log('switching to: ' + artist);
+						current = next;
+						console.log('rewinding: ' + artist);
+						current.currentTime = 0;
+						console.log('playing artist: ' + artist);
+						current.play();
+					}
 				}
-				if(current !== undefined) {
-					console.log('pausing current...');
-					current.pause();
-				}
-				current = next;
-				console.log('playing artist: ' + artist);
-				current.play();
 			} else {
-				console.log('undefined artist: ' + artist);
+				/* audio tag not found */
+				console.log('cannot load: ' + artist);
 			}
 		}
 
