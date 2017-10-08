@@ -7,7 +7,7 @@
   .coming-soon {
     width: 274px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 16px;
     img {
       height: 100px;
     }
@@ -18,20 +18,92 @@
 // tiles
 .tiles {
   // border: solid red 4px;
+  margin-top: 30px;
   .tiles-container {
     // outline: solid orange 1px;
     width: 652px;
     margin: auto;
     .album {
+      position: relative;
       background: whitesmoke;
-      height: 128px;
-      width: 128px;
-      margin: 16px;
+      height: 156px;
+      width: 156px;
+      margin: 2px;
+      border-radius: 3px;
       display: inline-block;
       -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
       -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
       box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+      .overlay {
+        border-radius: 3px;
+        height: 156px;
+        width: 156px;
+        background: orange;
+        filter: opacity(0%);
+        transition: all 0s;
+      }
+      .band {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: white;
+        font-family: 'helvetica neue';
+        display: none;
+      }
+
+      .play-btn {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        height: 16px;
+        width: 16px;
+        background-image: url(../img/play-btn.svg) !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: none;
+        filter: invert(95%);
+        cursor: pointer;
+      }
+      .link {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        height: 16px;
+        width: 16px;
+        background-image: url(../img/link.svg) !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: none;
+        filter: invert(95%);
+        cursor: pointer;
+      }
+      &:hover {
+        .overlay {
+          filter: opacity(95%);
+          transition: all .5s;
+        }
+        .link {
+          display: block;
+          &:hover {
+            filter: invert(100%);
+            transition: filter .8s;
+
+          }
+        }
+        .play-btn {
+          display: block;
+          &:hover {
+            filter: invert(100%);
+            transition: filter .8s;
+          }
+        }
+
+        .band {
+          display: block;
+        }
+      }
     }
+
     /*
       bands
     */
@@ -111,7 +183,7 @@
 
 // footer
 .footer {
-  margin-bottom: 64px;
+  margin-bottom: 10px;
   .orange {
     // outline: red solid 1px;
     width: 42px;

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/main.css">
     <!--<![endif]-->
     <title>Ugly Orange | Coming Soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <!-- orange -->
@@ -13,7 +14,7 @@
     <!-- header -->
     <div class="header">
       <div class="coming-soon">
-        <img src="img/coming-soon.gif" alt="">
+        <img src="img/coming-soon2.gif" alt="">
       </div>
     </div>
 
@@ -22,41 +23,134 @@
       <div class="tiles-container">
         <div class="album baby">
     			<audio id="audio-baby" src="audio/baby.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            Baby
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://babysongs.bandcamp.com/album/sunny-f-l-2">
+            <div class="link"></div>
+          </a>
         </div>
         <div class="album pearl">
     			<audio id="audio-pearl" src="audio/pearl.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            Pearl &amp; The Oysters
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://pearlandtheoysters.bandcamp.com/releases">
+            <div class="link"></div>
+          </a>
         </div>
         <div class="album tigerfawn">
           <audio id="audio-tigerfawn" src="audio/tigerfawn.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            Tigerfawn
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://tigerfawn.bandcamp.com/">
+            <div class="link"></div>
+          </a>
         </div>
         <div class="album fatnight">
           <audio id="audio-fatnight" src="audio/fatnight.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            Fat Night
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://www.fatnightmusic.com/"></a>
+          <div class="link"></div>
         </div>
-
         <div class="album telecom">
           <audio id="audio-telecom" src="audio/telecom.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            Transcendental Telecom
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://transcendentaltelecom.bandcamp.com/">
+            <div class="link"></div>
+          </a>
         </div>
         <div class="album hypoluxo">
           <audio id="audio-hypoluxo" src="audio/hypoluxo.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            Hypoluxo
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://hypoluxomusic.bandcamp.com/">
+            <div class="link"></div>
+          </a>
         </div>
         <div class="album tons">
           <audio id="audio-tons" src="audio/tons.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            Tonstartssbandht
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://tonstartssbandht.bandcamp.com/">
+            <div class="link"></div>
+          </a>
         </div>
         <div class="album jason">
           <audio id="audio-jason" src="audio/jason.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            J.A.S.O.N
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://soundcloud.com/jas000n">
+            <div class="link"></div>
+          </a>
         </div>
-
         <div class="album faking">
           <audio id="audio-faking" src="audio/faking.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            Faking Jazz
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://fakingjazz.bandcamp.com/">
+            <div class="link"></div>
+          </a>
         </div>
         <div class="album zoya">
           <audio id="audio-zoya" src="audio/zoya.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            Zoya Zafar
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://zoyazafar.bandcamp.com/">
+            <div class="link"></div>
+          </a>
         </div>
         <div class="album someday">
             <audio id="audio-someday" src="audio/someday.mp3"></audio>
+            <div class="overlay"></div>
+            <div class='band'>
+              Somday River
+            </div>
+            <div class='play-btn'></div>
+            <a href="https://somedayriver.bandcamp.com/">
+              <div class="link"></div>
+            </a>
         </div>
         <div class="album soap">
           <audio id="audio-soap" src="audio/soap.mp3"></audio>
+          <div class="overlay"></div>
+          <div class='band'>
+            Soapbox Soliloquy
+          </div>
+          <div class='play-btn'></div>
+          <a href="https://soapboxsoliloquy.bandcamp.com/">
+            <div class="link"></div>
+          </a>
         </div>
       </div>
     </div>
@@ -68,6 +162,10 @@
       <div class="social">
 
 
+
+        <!-- <a href="mailto:uglyorange@gmail.com">
+          <img src="img/logo.svg" alt="" style='height:40px;'>
+        </a> -->
         <a href="https://www.instagram.com/ugly.orange/">
           <img src="img/insta.png" alt="">
         </a>
@@ -77,11 +175,12 @@
         <a href="mailto:uglyorange@gmail.com">
           <img src="img/contact.png" alt="">
         </a>
+
       </div>
 
       <!-- ugly orange  -->
       <div class='orange'>
-        <img src="img/orange.png" alt="">
+        <img src="img/logo.svg" alt="">
       </div>
     </div>
   </body>
@@ -115,7 +214,7 @@
 					play($(this).attr('class').split(/\s+/)[1]);
 				})
 				.css({
-					cursor: "pointer"
+					// cursor: "pointer"
 				});
 
 			play('baby');
