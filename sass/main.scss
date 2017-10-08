@@ -45,10 +45,16 @@
       .band {
         position: absolute;
         top: 10px;
-        left: 10px;
+        left: 25px;
         color: white;
         font-family: 'helvetica neue';
         display: none;
+        background-image: url(../img/band-name/baby.gif) !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+        filter: invert(100%);
       }
 
       .play-btn {
