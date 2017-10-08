@@ -60,6 +60,18 @@
     background-image: url("../img/albums/faking.jpg") !important;
     background-repeat: no-repeat;
     background-size: contain; }
+  .tiles .tiles-container .zoya {
+    background-image: url("../img/albums/zoya.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tiles .tiles-container .someday {
+    background-image: url("../img/albums/someday.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .tiles .tiles-container .soap {
+    background-image: url("../img/albums/soap.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .footer {
   margin-bottom: 64px; }
