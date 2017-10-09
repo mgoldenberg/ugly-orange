@@ -166,11 +166,11 @@
     margin: auto;
     margin-top: 30px; }
     .footer .social a {
-      text-decoration: none;
-      transition: all .25s; }
+      text-decoration: none; }
       .footer .social a img {
         height: 20px;
-        margin-left: 9px; }
+        margin-left: 9px;
+        transition: all .25s; }
       .footer .social a :hover {
         transform: rotate(-360deg);
         transition: all .25s; }

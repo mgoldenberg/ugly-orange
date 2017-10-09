@@ -229,10 +229,10 @@
     margin-top: 30px;
     a {
       text-decoration: none;
-      transition: all .25s;
       img {
         height: 20px;
-        margin-left: 9px
+        margin-left: 9px;
+        transition: all .25s;
       }
       :hover {
         transform: rotate(-360deg);
