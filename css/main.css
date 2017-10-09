@@ -60,8 +60,9 @@
         background-image: url(../img/band-name/tigerfawn.gif) !important;
         background-repeat: no-repeat;
         background-size: contain;
-        height: 100px;
-        width: 100px; }
+        height: 130px;
+        width: 130px;
+        left: 12px; }
       .tiles .tiles-container .album .play-btn {
         position: absolute;
         bottom: 8px;
