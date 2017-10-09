@@ -41,8 +41,16 @@
         left: 25px;
         color: white;
         font-family: 'helvetica neue';
-        display: none;
+        display: none; }
+      .tiles .tiles-container .album .band-baby {
         background-image: url(../img/band-name/baby.gif) !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+        filter: invert(100%); }
+      .tiles .tiles-container .album .band-jason {
+        background-image: url(../img/band-name/jason.gif) !important;
         background-repeat: no-repeat;
         background-size: contain;
         height: 100px;
@@ -79,12 +87,14 @@
         display: block; }
         .tiles .tiles-container .album:hover .link:hover {
           filter: invert(100%);
-          transition: filter .8s; }
+          transition: filter .8s;
+          transform: rotate(-10deg); }
       .tiles .tiles-container .album:hover .play-btn {
         display: block; }
         .tiles .tiles-container .album:hover .play-btn:hover {
           filter: invert(100%);
-          transition: filter .8s; }
+          transition: filter .8s;
+          transform: rotate(-10deg); }
       .tiles .tiles-container .album:hover .band {
         display: block; }
     .tiles .tiles-container .baby {
@@ -150,9 +160,13 @@
     margin: auto;
     margin-top: 30px; }
     .footer .social a {
-      text-decoration: none; }
+      text-decoration: none;
+      transition: all .25s; }
       .footer .social a img {
         height: 20px;
         margin-left: 9px; }
+      .footer .social a :hover {
+        transform: rotate(-360deg);
+        transition: all .25s; }
 
 /*# sourceMappingURL=main.css.map */
