@@ -56,6 +56,12 @@
         height: 100px;
         width: 100px;
         filter: invert(100%); }
+      .tiles .tiles-container .album .band-tigerfawn {
+        background-image: url(../img/band-name/tigerfawn.gif) !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px; }
       .tiles .tiles-container .album .play-btn {
         position: absolute;
         bottom: 8px;

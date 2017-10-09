@@ -69,6 +69,15 @@
         filter: invert(100%);
       }
 
+      .band-tigerfawn {
+        background-image: url(../img/band-name/tigerfawn.gif) !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100px;
+
+      }
+
       .play-btn {
         position: absolute;
         bottom: 8px;
